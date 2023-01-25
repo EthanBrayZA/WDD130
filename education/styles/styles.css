@@ -1,0 +1,29 @@
+main {
+    text-align: center;
+}
+img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    background-color: deeppink;
+}
+header {
+    text-align: center;
+    color: #fff;
+}
+footer {
+    font-size: 1.5em;
+    text-align: center;
+}
+main p {
+    font-size: 4em;
+    color: #fff;
+}
+header h1 {
+    font-size: 3em;
+}
+h1.hover {
+    color: black;
+}

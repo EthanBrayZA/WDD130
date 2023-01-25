@@ -23,8 +23,8 @@ Fonts are separated by a & */
   --paragraph-background-color: #4AC0AC  ;
   --nav-link-color: #fff;
   --nav-background-color: #034732;
-  --nav-hover-link-color: #381D2A;
-  --nav-hover-background-color: #fff;
+  --nav-hover-link-color: #fff;
+  --nav-hover-background-color: #381D2A;
 }
 
 
