@@ -143,6 +143,7 @@
     height: 110px; 
     background-color: green; 
     float: left;
+    margin-right: 10px;
   } 
   .yellow5 {
     width: 100%; 
