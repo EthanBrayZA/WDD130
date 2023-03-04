@@ -189,9 +189,7 @@ main section img {
 .rivers-title {
     font-family: 'Anton', 'Roboto Mono', sans-serif;
     font-size: 2.2em;
-    color: #4AC0AC;
-    margin-top: 130px;
-    margin-left: 250px;
+    color: red;
 }
 .rivers-grid {
     display: grid;
@@ -206,33 +204,60 @@ main section img {
     max-height: 100px;
 }
 /*Salmon River*/
-.salmon-river {
+#salmon-river {
     grid-column: 1/10;
     grid-row: 1/7;
 }
-.salmon-river img {
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-.salmon-river section {
+#salmon-river div {
     display: flex;
     grid-gap: 20px;
     grid-row: 2/7;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-height: 400px;
+    margin-bottom: 20px;
+}
+.salmon-p {
+    overflow: auto;
+    max-height: 390px;
+    height: 100%;
+}
+#salmon-river section {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px ;
 }
 /*Gray Canyon*/
 .gray-canyon {
     grid-column: 1/10;
     grid-row: 7/13;
 }
-.gray-canyon img {
-    grid-row: 7/8;
-    grid-column: 10/11;
-}
 .gray-canyon section {
     display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: right;
+    margin: 10px;
+}
+.gray-canyon div {
+    display: flex;
     grid-gap: 20px;
+    grid-row: 2/7;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-height: 400px;
     margin-left: 150px;
     grid-column: 2/11;
+}
+.gray-img {
+    max-width: 500px;
+} 
+.gray-p {
+    overflow: auto;
+    max-height: 420px;
+    height: 100%;
+    margin-right: 10px;
 }
 /*Grand Canyon*/
 .grand-canyon {
@@ -243,14 +268,24 @@ main section img {
     grid-row: 13/14;
     grid-column: 1/2;
 }
-.grand-canyon section {
+.grand-canyon div {
     display: flex;
     grid-gap: 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-height: 300px;
+    margin-bottom: 20px;
 }
-.gray-canyon h2 {
-    text-align: center;
-    grid-row: 14/18;
-    grid-column: ;
+.grand-p {
+    overflow: auto;
+    max-height: 300px;
+    height: 100%;
+}
+.grand-canyon section {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px ;
 }
 
 
