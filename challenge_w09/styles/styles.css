@@ -1,0 +1,52 @@
+body {
+    max-width: 300px;
+    margin: 0 auto;
+}
+h3 {
+    text-align: center;
+    color: steelblue;
+}
+h1 {
+    text-align: center;
+}
+main p {
+    text-align: center;
+    height: 150px;
+    overflow: auto;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+    margin-top: 30px;
+    max-height: 200px;
+    text-align: center;
+    line-height: 0.7;
+}    
+.read {
+    background-color: steelblue;
+    border-radius: solid line;
+    width: 100%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.views {
+    background-color: steelblue;
+    border-radius: solid line;
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+}
+.comments {
+    background-color: steelblue;
+    border-radius: solid line;  
+    width: 100%;
+    height: 100%;
+    grid-column: 3/4;
+}
+justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
