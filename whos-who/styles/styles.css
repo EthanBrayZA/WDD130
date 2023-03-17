@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Josefin+Sans&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #fbc453   ;
+  --secondary-color: #52432f ;
+  --accent1-color: #4c956c;
+  --accent2-color: #ffffff;
+    
+  /* change the values below to your chosen font(s) */
+  --heading-font: "EB Garamond", Serif;
+  --paragraph-font: "Josefin Sans", Sans-Serif;
+    
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #4c956c;  /* headlines on a white background */ 
+  --headline-color-on-color: #ffffff; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #52432f; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #4c956c  ;
+  --nav-link-color: #fbc453;
+  --nav-background-color: #fbc453;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #fbc453;
+}
+  
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    background-color: var(--paragraph-color-on-color);
+}
+.logo {
+    width: 100px;
+}
+Header {
+    background: linear-gradient(90deg, var(--paragraph-color-on-color) 10%, var(--paragraph-background-color) 90%);
+    display: grid;
+    grid-template-columns: 150px auto;
+    z-index: 1;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: var(--nav-link-color);
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 2em;
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -115px; 
+}  
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-img {
+    width: 100%;
+}
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+main p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 200px);
+}
+.page-heading h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+.page-img h1 {
+    text-align: center;
+}
+.page-img img {
+    max-height: 1000px;
+}
+.lion {
+    grid-column: 2/10;
+}
+.elephant {
+    grid-column: 2/10;
+}
+.buffalo {
+    grid-column: 2/10;
+}
+.rhino {
+    grid-column: 2/10;
+}
+.leoperd {
+    grid-column: 2/10;
+}
+main {
+    padding-top: 50px;
+}
+main h2 {
+    padding-top: 90px;
+    text-align: center;
+}
+main p {
+    padding-left: 50px;
+}
+footer {
+    background-color: var(--paragraph-background-color);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: var(--paragraph-color-on-color);
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--nav-link-color);
+}
+footer p {
+    color: var(--paragraph-color-on-color);
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer.social img {
+    padding-top: 15px;
+}
+
+
