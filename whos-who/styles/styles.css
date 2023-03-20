@@ -72,6 +72,7 @@ nav a:hover {
 }
 #hero-img {
     width: 100%;
+    height: 100%;
 }
 h1, h2 {
     font-family: var(--heading-font);
@@ -146,6 +147,38 @@ footer p a:hover {
 footer.social img {
     padding-top: 15px;
 }
+
+/*Who's Who CSS*/
+#hero2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -10px; 
+}  
+section img {
+    max-width: 200px;
+    max-height: 200px;
+}
+.cats {
+    display: flex;
+    grid-column: 2/10;
+    text-align: left;
+}
+.rhinos {
+    display: flex;
+    grid-column: 2/10;
+    grid-row: 4/7;
+    text-align: left;
+}
+.who-p {
+    margin-top: 180px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
 /* width */
 ::-webkit-scrollbar {
     width: 20px;
