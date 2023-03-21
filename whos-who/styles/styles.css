@@ -173,6 +173,9 @@ section img {
     margin-top: 180px;
     margin-right: 50px;
 }
+ol { 
+    padding: 0 0 0 20px;
+}
 
 
 
@@ -201,4 +204,30 @@ section img {
     background: #ebb64e; 
   }
 
+  @media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    #background {
+        display: none;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
 
