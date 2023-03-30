@@ -81,6 +81,7 @@ h1, h2 {
 main p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
+    text-align: left;
 }
 .home-grid {
     display: grid;
@@ -90,6 +91,11 @@ main p {
 .page-heading h1 {
     text-align: center;
     font-size: 2.5em;
+}
+.page-heading p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    text-align: left;
 }
 .page-img h1 {
     text-align: center;
@@ -177,9 +183,44 @@ ol {
     padding: 0 0 0 20px;
 }
 
+/*Parks CSS*/
 
-
-
+.map-icon {
+    max-height: 80px;
+    max-width: 60px;
+}    
+.location {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.landscapes {
+    grid-row-start: 1;
+    grid-column: 10/11;
+    padding-left: 20px;
+}/*
+main section {
+    grid-column: 1/10;
+}*/
+.kruger {
+    grid-column: 1/10;
+    grid-row: 1/3;
+}
+.pilanesberg {
+    grid-column: 1/10;
+    grid-row: 2/4;
+    padding-top: 40px;
+}
+.kgalagadi {
+    grid-column: 1/10;
+    grid-row: 3/5;
+    padding-top: 60px;
+}
+.addo {
+    grid-column: 1/10;
+    grid-row: 4/6;
+    padding-top: 80px;
+}
 
 
 /* width */
@@ -204,6 +245,7 @@ ol {
     background: #ebb64e; 
   }
 
+
   @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -222,9 +264,6 @@ ol {
     .home-title {
         font-size: 25px;
         color: #6f7364;
-    }
-    #background {
-        display: none;
     }
     footer {
         margin-top: 25px;
