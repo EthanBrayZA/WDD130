@@ -220,13 +220,21 @@ ol {
 .addo {
     grid-column: 1/10;
     grid-row: 4/5;
-    margin: 80px 0 50px 0;
+    margin: 100px 0 50px 0;
 }
 .parks {
     margin-left: 20px;
 }
 
-
+/*Form*/
+form {
+    background-color: var(--primary-color);
+}
+button {
+    background-color: var(--paragraph-background-color);
+    font-size: 2em;
+    color: var(--paragraph-color-on-color);
+  }
 
 /* width */
 ::-webkit-scrollbar {
